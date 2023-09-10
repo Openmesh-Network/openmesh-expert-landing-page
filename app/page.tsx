@@ -9,6 +9,9 @@ import { Inter } from '@next/font/google'
 import { useRef } from 'react'
 import { RevealWrapper } from 'next-reveal'
 import Techs from '@/components/Techs'
+import Consulting from '@/components/Consulting'
+import CTA from '@/components/CTA'
+import Articles from '@/components/Articles'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +25,9 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Techs />
-      <SuccessStories />
+      <Consulting />
+      <CTA />
+      <Articles />
     </>
   )
 }

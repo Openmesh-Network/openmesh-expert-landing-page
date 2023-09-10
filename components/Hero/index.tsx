@@ -75,7 +75,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="mx-auto mt-[55px] grid gap-x-[70px] xl:mt-[105px] xl:max-w-[1200px] xl:grid-cols-4">
+        <div className="mx-auto mt-[35px] grid gap-x-[70px] gap-y-[20px] lg:mt-[105px] lg:grid-cols-4 xl:max-w-[1200px]">
           {features.map((feature, index) => (
             <div key={index}>
               <div className="text-[12px] font-bold tracking-[2.2%] md:text-[15px] lg:text-[17px] xl:text-[24px] xl:!leading-[150%]">
@@ -87,7 +87,7 @@ const Hero = () => {
             </div>
           ))}
         </div>
-        <div className="mx-auto mt-[55px] grid gap-x-[100px] xl:mt-[95px] xl:max-w-[1400px] xl:grid-cols-6">
+        <div className="mx-auto mt-[55px] grid grid-cols-3 gap-y-[20px] gap-x-[50px] lg:grid-cols-6 lg:gap-x-[100px] xl:mt-[95px] xl:max-w-[1400px]">
           {featuresNumbers.map((feature, index) => (
             <div key={index}>
               <div className="text-center text-[24px] font-bold md:text-[29px] lg:text-[34px] xl:text-[40px] xl:!leading-[48px]">
