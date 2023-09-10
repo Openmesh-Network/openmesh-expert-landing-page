@@ -99,7 +99,6 @@ const Hero = () => {
             </div>
           ))}
         </div>
-        <div className="mx-auto mt-[55px] flex h-[1px] max-w-[1445px] bg-[#D4D4D4] lg:mt-[95px]"></div>
       </section>
     </>
   )

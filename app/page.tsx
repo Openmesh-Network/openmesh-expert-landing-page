@@ -11,7 +11,7 @@ import { RevealWrapper } from 'next-reveal'
 import Techs from '@/components/Techs'
 import Consulting from '@/components/Consulting'
 import CTA from '@/components/CTA'
-import Articles from '@/components/Articles'
+import Articles from '@/components/Plataforms'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,10 +24,8 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Techs />
-      <Consulting />
-      <CTA />
       <Articles />
+      <SuccessStories />
     </>
   )
 }

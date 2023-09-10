@@ -50,7 +50,7 @@ const Header = () => {
     },
     {
       label: 'Academy',
-      isCurrentlyPage: true,
+      isCurrentlyPage: false,
       href: 'https://openmesh-expert-academy.vercel.app/',
     },
     {
@@ -136,12 +136,12 @@ const Header = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={`https://calendly.com/`}
+                href={`/`}
                 className=" cursor-pointer items-center rounded-[5px] border  border-[#000] bg-transparent py-[11.5px] px-[18px] text-[13px] font-bold !leading-[19px] text-[#575757] hover:bg-[#ececec]"
               >
                 Become an expert
               </a>
-              <div className="mt-[25px]">
+              {/* <div className="mt-[25px]">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -150,7 +150,7 @@ const Header = () => {
                 >
                   Login
                 </a>
-              </div>
+              </div> */}
             </div>
           </nav>
         </div>
@@ -184,19 +184,19 @@ const Header = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={`https://calendly.com/`}
+              href={`/`}
               className="flex cursor-pointer items-center rounded-[5px] border  border-[#000] bg-transparent py-[11.5px] px-[24px] text-[16px] font-bold !leading-[19px] text-[#575757] hover:bg-[#ececec]"
             >
               Become an expert
             </a>
-            <a
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
               href={`/`}
               className=" my-auto h-fit cursor-pointer items-center   border-b  border-[#000] bg-transparent text-[16px]  font-bold !leading-[19px] text-[#000] hover:text-[#3b3a3a]"
             >
               Login
-            </a>
+            </a> */}
           </div>
           {/* <div className="lg:hidden">
               <Dialog.Root>

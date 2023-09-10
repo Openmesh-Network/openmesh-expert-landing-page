@@ -3,7 +3,7 @@ const SuccessStories = () => {
     <>
       <section
         id="success"
-        className="relative z-10  bg-[#F3F3F3] px-[30px] pb-[125px] pt-[55px] text-[#000000] md:px-[90px]  md:pt-[103px] xl:pb-[50px]"
+        className="relative z-10  mt-[70px] bg-[#F3F3F3] px-[30px] pb-[125px] pt-[55px] text-[#000000] md:px-[90px] md:pt-[103px]  lg:mt-[140px] xl:pb-[50px]"
       >
         <div className="">
           <div className="pr-[40px] lg:pr-[90px] xl:pr-[170px]">
