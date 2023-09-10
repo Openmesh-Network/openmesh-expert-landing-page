@@ -23,18 +23,36 @@ const Hero = () => {
     },
   ]
   const featuresNumbers = [
-    '5.png',
-    '20.png',
-    '25.png',
-    '80.png',
-    '300.png',
-    'open.png',
+    {
+      name: '20+',
+      description: 'Speakers',
+    },
+    {
+      name: '80+',
+      description: 'Insightful topics',
+    },
+    {
+      name: '5+',
+      description: 'Challenges',
+    },
+    {
+      name: '$25k',
+      description: 'Prizes',
+    },
+    {
+      name: 'OPEN',
+      description: 'Development',
+    },
+    {
+      name: '300+',
+      description: 'Community AirDrop',
+    },
   ]
   return (
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white px-[30px] pt-[53px] text-[#000000] md:px-[90px]"
+        className="relative z-10 overflow-hidden bg-white px-[30px] pt-[53px] text-[#000000] md:px-[90px] lg:pt-[132px]"
       >
         <div className="mx-auto lg:flex xl:max-w-[1100px]">
           <div className="text-center text-[24px] font-medium -tracking-[2%] lg:text-start lg:text-[33px] lg:!leading-[58px] xl:text-[48px]">
@@ -72,17 +90,16 @@ const Hero = () => {
         <div className="mx-auto mt-[55px] grid gap-x-[100px] xl:mt-[95px] xl:max-w-[1400px] xl:grid-cols-6">
           {featuresNumbers.map((feature, index) => (
             <div key={index}>
-              <img
-                src={`${
-                  process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
-                    ? process.env.NEXT_PUBLIC_BASE_PATH
-                    : ''
-                }/images/numbersHero/${feature}`}
-                alt="image"
-              />
+              <div className="text-center text-[24px] font-bold md:text-[29px] lg:text-[34px] xl:text-[40px] xl:!leading-[48px]">
+                {feature.name}
+              </div>
+              <div className="mt-[5px] text-center text-[8px] font-normal md:text-[10px] lg:text-[12px] xl:text-[16px] xl:!leading-[19px]">
+                {feature.description}
+              </div>
             </div>
           ))}
         </div>
+        <div className="mx-auto mt-[55px] flex h-[1px] max-w-[1445px] bg-[#D4D4D4] lg:mt-[95px]"></div>
       </section>
     </>
   )
