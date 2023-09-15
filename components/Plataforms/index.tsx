@@ -7,21 +7,21 @@ const Plataforms = () => {
       title: 'Becoming an Openmesh Expert',
       description:
         "Discover and connect with leading Openmesh experts in our curated directory. Whether you're seeking solutions or expertise, this is your one-stop portal to the best in decentralized data technology. Dive in and shape your Web 3.0 journey with the pros.",
-      href: 'https://openmesh-expert-frontend.vercel.app',
+      href: `${process.env.NEXT_PUBLIC_BASE_URL}/oen`,
       img: '/images/plataforms/person.png',
     },
     {
       title: 'Openmesh Expert Community',
       description:
         "Discover and connect with leading Openmesh experts in our curated directory. Whether you're seeking solutions or expertise, this is your one-stop portal to the best in decentralized data technology. Dive in and shape your Web 3.0 journey with the pros.",
-      href: 'https://openmesh-expert-community.vercel.app',
+      href: `${process.env.NEXT_PUBLIC_BASE_URL}/community`,
       img: '/images/plataforms/people.png',
     },
     {
       title: 'Openmesh Academy',
       description:
         "Discover and connect with leading Openmesh experts in our curated directory. Whether you're seeking solutions or expertise, this is your one-stop portal to the best in decentralized data technology. Dive in and shape your Web 3.0 journey with the pros.",
-      href: 'https://openmesh-expert-academy.vercel.app',
+      href: `${process.env.NEXT_PUBLIC_BASE_URL}/academy`,
       img: '/images/plataforms/introduction-xnode.png',
     },
   ]
