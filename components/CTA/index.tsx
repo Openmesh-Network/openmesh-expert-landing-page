@@ -49,7 +49,7 @@ const CTA = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={`https://calendly.com/`}
+              href={`https://openmesh-expert-community.vercel.app/register`}
               className="cursor-pointer rounded-[5px] border  border-[#000] bg-transparent px-[18px] py-[9.5px] text-[11px] font-bold text-[#575757] hover:bg-[#ececec] lg:py-[11.5px] lg:px-[35px] lg:!leading-[19px] xl:text-[16px]"
             >
               Become an expert
