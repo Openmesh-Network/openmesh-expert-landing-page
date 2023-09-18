@@ -218,15 +218,15 @@ const Header = () => {
         <div className="hidden h-full w-full items-center justify-between px-[70px] xl:flex">
           <div className="flex  h-full items-center">
             <a href={'/'}>
-            <img
-              src={`${
-                process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
-                  ? process.env.NEXT_PUBLIC_BASE_PATH
-                  : ''
-              }/images/header/openmesh-logo.png`}
-              alt="image"
-              className={`mr-[60px]`}
-            />
+              <img
+                src={`${
+                  process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
+                    ? process.env.NEXT_PUBLIC_BASE_PATH
+                    : ''
+                }/images/header/openmesh-logo.png`}
+                alt="image"
+                className={`mr-[60px]`}
+              />
             </a>
             <div className="flex h-full items-center gap-x-[1px] text-[14px] font-medium !leading-[19px] 2xl:gap-x-[20px] 2xl:text-[16px]">
               {features.map((feature, index) => (
