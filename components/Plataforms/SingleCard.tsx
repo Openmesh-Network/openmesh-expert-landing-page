@@ -25,7 +25,7 @@ const SingleCard = ({ title, description, logo, href }: SingleCardProps) => {
         >
           {title}
         </div>
-        <div className="mt-[9px] text-[12px]  font-normal -tracking-[2%] lg:mt-[17px]  lg:text-[14px] lg:!leading-[150%] xl:text-[20px]">
+        <div className="mt-[9px] text-[9px]  font-normal -tracking-[2%] lg:mt-[17px]  lg:text-[12px] lg:!leading-[150%] xl:text-[16px]">
           {description}
         </div>
         <div className="mt-[10px] flex text-center lg:mt-[20px]">
