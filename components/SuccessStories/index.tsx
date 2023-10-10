@@ -1,7 +1,7 @@
 const SuccessStories = () => {
   return (
     <>
-      <section
+      {/* <section
         id="success"
         className="relative z-10  mt-[70px] bg-[#F3F3F3] px-[30px] pb-[125px] pt-[55px] text-[#000000] md:px-[90px] md:pt-[103px]  lg:mt-[140px] xl:pb-[50px]"
       >
@@ -65,7 +65,7 @@ const SuccessStories = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <div className="h-[750px] bg-white md:h-[250px]"></div>
     </>
   )
