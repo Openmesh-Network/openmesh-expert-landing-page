@@ -3,9 +3,16 @@ export interface SingleCardProps {
   description: string
   href: string
   logo: string
+  call: string
 }
 
-const SingleCard = ({ title, description, logo, href }: SingleCardProps) => {
+const SingleCard = ({
+  title,
+  description,
+  logo,
+  call,
+  href,
+}: SingleCardProps) => {
   return (
     <div className="justify-start rounded-[8px] bg-[#FAFAFA] p-[15px] text-start text-[#000000]  shadow-md lg:p-[25px]">
       <div className="flex">
@@ -33,7 +40,7 @@ const SingleCard = ({ title, description, logo, href }: SingleCardProps) => {
             href={href}
             className="cursor-pointer rounded-[5px] bg-[#0354EC] px-[12px] py-[7px]  text-[10px] font-bold text-white hover:bg-[#0447c5] lg:py-[9px] lg:px-[25px] lg:text-[12px] lg:!leading-[19px] xl:text-[16px]"
           >
-            Join now
+            {call}
           </a>
         </div>
       </div>
