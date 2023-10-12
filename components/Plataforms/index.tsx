@@ -8,7 +8,7 @@ const Plataforms = () => {
       description:
         "Discover and connect with leading Openmesh experts in our curated directory. Whether you're seeking solutions or expertise, this is your one-stop portal to the best in decentralized data technology. Dive in and shape your Web 3.0 journey with the pros.",
       href: `${process.env.NEXT_PUBLIC_BASE_URL}/oen`,
-      call: 'View more',
+      call: 'Learn more',
       img: '/images/plataforms/person.png',
     },
     {
