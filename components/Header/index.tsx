@@ -217,7 +217,7 @@ const Header = () => {
         </div>
         <div className="hidden h-full w-full items-center justify-between px-[70px] xl:flex">
           <div className="flex  h-full items-center">
-            <a href={'/'}>
+            <a href={'/oen'}>
               <img
                 src={`${
                   process.env.NEXT_PUBLIC_ENVIRONMENT === 'PROD'
