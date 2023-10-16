@@ -24,28 +24,28 @@ const Hero = () => {
   ]
   const featuresNumbers = [
     {
-      name: '20+',
-      description: 'Speakers',
+      name: '100%',
+      description: 'Opensource',
     },
     {
-      name: '80+',
-      description: 'Insightful topics',
+      name: '500+',
+      description: 'Data Products',
     },
     {
-      name: '5+',
-      description: 'Challenges',
+      name: 'Free',
+      description: 'Data APIs',
     },
     {
-      name: '$25k',
-      description: 'Prizes',
+      name: 'Build',
+      description: 'Your APIs & Data Cloud',
     },
     {
-      name: 'OPEN',
-      description: 'Development',
+      name: '12+',
+      description: 'Free IaaS Tools',
     },
     {
-      name: '300+',
-      description: 'Community AirDrop',
+      name: 'Growing',
+      description: 'Open community',
     },
   ]
   return (
