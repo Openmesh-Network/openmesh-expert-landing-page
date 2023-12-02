@@ -6,7 +6,7 @@ const Plataforms = () => {
     {
       title: 'Becoming an Openmesh Expert',
       description:
-        "Discover and connect with leading Openmesh experts in our curated directory. Whether you're seeking solutions or expertise, this is your one-stop portal to the best in decentralized data technology. Dive in and shape your Web 3.0 journey with the pros.",
+        "Openmesh is an open-source project and does not have sales, or technical support like traditional SaaS or IaaS business models. An Openmesh Expert is an individual or a company who has an in-depth understanding, familiarity, and proficiency with the Openmesh technology stack and tools. Their expertise isn't just theoretical; they actively build, contribute, enhance, and maintain the Openmesh Network, ensuring its seamless growth and development.",
       href: `${process.env.NEXT_PUBLIC_BASE_URL}/oen`,
       call: 'Learn more',
       img: '/images/plataforms/person.png',
@@ -14,7 +14,7 @@ const Plataforms = () => {
     {
       title: 'Openmesh Expert Community',
       description:
-        "Discover and connect with leading Openmesh experts in our curated directory. Whether you're seeking solutions or expertise, this is your one-stop portal to the best in decentralized data technology. Dive in and shape your Web 3.0 journey with the pros.",
+        'The Openmesh Expert Network caters to individuals or entities well-versed in data and Web3 infrastructure. They assume a crucial role in implementing Openmesh Core services for businesses through the acquisition of the Openmesh Open License. The Openmesh Expert Network (OEN) serves as the collective nucleus of all Openmesh Experts (OEs).',
       href: `${process.env.NEXT_PUBLIC_BASE_URL}/oec`,
       call: 'Join now',
       img: '/images/plataforms/people.png',
@@ -22,7 +22,7 @@ const Plataforms = () => {
     {
       title: 'Openmesh Academy',
       description:
-        "Discover and connect with leading Openmesh experts in our curated directory. Whether you're seeking solutions or expertise, this is your one-stop portal to the best in decentralized data technology. Dive in and shape your Web 3.0 journey with the pros.",
+        "Openmesh Academy is a comprehensive platform that equips you with the knowledge and tools to leverage Openmesh's core services effectively. It's a hub of learning modules designed to empower the OEN in harnessing decentralized data clouds and cutting-edge technologies.",
       href: `${process.env.NEXT_PUBLIC_BASE_URL}/academy`,
       call: 'Watch modules',
       img: '/images/plataforms/introduction-xnode.png',
